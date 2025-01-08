@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.8.6)  9 JAN 2025 02:08
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.8.6)  9 JAN 2025 02:11
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -920,7 +920,14 @@ File: l3backend-pdftex.def 2024-02-20 L3 backend support: PDF output (pdfTeX)
 \l__color_backend_stack_int=\count365
 \l__pdf_internal_box=\box127
 )
-No file presentation.aux.
+(./presentation.aux
+
+LaTeX Warning: Label `10' multiply defined.
+
+
+LaTeX Warning: Label `10' multiply defined.
+
+)
 \openout1 = `presentation.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 70.
@@ -941,6 +948,7 @@ LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 70.
 LaTeX Font Info:    ... okay on input line 70.
 LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 70.
 LaTeX Font Info:    ... okay on input line 70.
+
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
 *geometry* verbose mode - [ preamble ] result:
@@ -998,6 +1006,8 @@ File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 ))
 Package hyperref Info: Link coloring OFF on input line 70.
+
+(./presentation.out) (./presentation.out)
 \@outlinefile=\write5
 \openout5 = `presentation.out'.
 
@@ -1082,18 +1092,16 @@ Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: listings package is loaded.
 Package caption Info: End \AtBeginDocument code.
 \c@lstlisting=\count372
+ (./presentation.nav) [1
 
-No file presentation.nav.
-[1
-
-{/usr/local/texlive/2024/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
-No file presentation.toc.
-[2
+{/usr/local/texlive/2024/texmf-var/fonts/map/pdftex/updmap/pdftex.map}] (./pres
+entation.toc) [2
 
 ]
 LaTeX Font Info:    Trying to load font information for U+msa on input line 83.
 
- (/usr/local/texlive/2024/texmf-dist/tex/latex/amsfonts/umsa.fd
+
+(/usr/local/texlive/2024/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
 LaTeX Font Info:    Trying to load font information for U+msb on input line 83.
@@ -1125,23 +1133,12 @@ Enter file name:
 [4
 
 ]
-
-LaTeX Warning: Reference `2' on page 5 undefined on input line 117.
-
-
 Overfull \vbox (20.92987pt too high) detected at line 117
  []
 
 [5
 
-]
-
-LaTeX Warning: Reference `8' on page 6 undefined on input line 137.
-
-
-LaTeX Warning: Reference `8' on page 6 undefined on input line 137.
-
-[6
+] [6
 
 ]
 pdfTeX warning (ext4): destination with the same identifier (name{10}) has been
@@ -1171,11 +1168,7 @@ l.151 \end{frame}
 \openout4 = `presentation.vrb'.
 
 
-(./presentation.vrb
-
-LaTeX Warning: Reference `21' on page 10 undefined on input line 7.
-
-) [10
+(./presentation.vrb) [10
 
 ]
 \openout4 = `presentation.vrb'.
@@ -1185,7 +1178,8 @@ LaTeX Warning: Reference `21' on page 10 undefined on input line 7.
 ]
 \openout4 = `presentation.vrb'.
 
- (./presentation.vrb) [12
+ (./presentation.vrb)
+[12
 
 ]
 \openout4 = `presentation.vrb'.
@@ -1253,7 +1247,7 @@ Overfull \vbox (0.11983pt too high) detected at line 323
 \openout4 = `presentation.vrb'.
 
  (./presentation.vrb
-<figs/plot.png, id=145, 722.7pt x 433.62pt>
+<figs/plot.png, id=203, 722.7pt x 433.62pt>
 File: figs/plot.png Graphic file (type png)
 <use figs/plot.png>
 Package pdftex.def Info: figs/plot.png  used on input line 4.
@@ -1284,25 +1278,16 @@ L3 programming layer <2024-02-20>
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
 
-LaTeX Warning: There were undefined references.
+LaTeX Warning: There were multiply-defined labels.
 
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
-
-Package rerunfilecheck Warning: File `presentation.out' has changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
-
-Package rerunfilecheck Info: Checksums for `presentation.out':
-(rerunfilecheck)             Before: <no file>
-(rerunfilecheck)             After:  4BB7BB0FB3271FC04B0E5B527AFAA2BC;1577.
+Package rerunfilecheck Info: File `presentation.out' has not changed.
+(rerunfilecheck)             Checksum: 4BB7BB0FB3271FC04B0E5B527AFAA2BC;1577.
  ) 
 Here is how much of TeX's memory you used:
- 26287 strings out of 474116
- 497082 string characters out of 5743683
+ 26493 strings out of 474116
+ 501043 string characters out of 5743683
  2137187 words of memory out of 5000000
- 48041 multiletter control sequences out of 15000+600000
+ 48237 multiletter control sequences out of 15000+600000
  566351 words of font info for 65 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  128i,14n,131p,406b,1324s stack positions out of 10000i,1000n,20000p,200000b,200000s
@@ -1317,10 +1302,10 @@ sr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmssi8.pfb></us
 r/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr
 /local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/l
 ocal/texlive/2024/texmf-dist/fonts/type1/public/cm-super/sfss1095.pfb>
-Output written on presentation.pdf (19 pages, 158415 bytes).
+Output written on presentation.pdf (19 pages, 161296 bytes).
 PDF statistics:
- 219 PDF objects out of 1000 (max. 8388607)
- 166 compressed objects within 2 object streams
+ 276 PDF objects out of 1000 (max. 8388607)
+ 220 compressed objects within 3 object streams
  64 named destinations out of 1000 (max. 500000)
- 48 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 164 words of extra memory for PDF output out of 10000 (max. 10000000)
 
