@@ -1,0 +1,12 @@
+\beamer@sectionintoc {2}{Problem}{3}{0}{1}
+\beamer@sectionintoc {3}{Solution}{4}{0}{2}
+\beamer@subsectionintoc {3}{1}{Table}{4}{0}{2}
+\beamer@subsectionintoc {3}{2}{Solution}{5}{0}{2}
+\beamer@sectionintoc {4}{Logic used for programming}{8}{0}{3}
+\beamer@subsectionintoc {4}{1}{Method of finite difference}{8}{0}{3}
+\beamer@subsectionintoc {4}{2}{Solution of differential equation using the Z-Transform}{10}{0}{3}
+\beamer@sectionintoc {5}{Codes}{13}{0}{4}
+\beamer@subsectionintoc {5}{1}{C code}{13}{0}{4}
+\beamer@subsectionintoc {5}{2}{Pyhton code}{14}{0}{4}
+\beamer@sectionintoc {6}{Plot}{19}{0}{5}
+\beamer@subsectionintoc {6}{1}{Graph}{19}{0}{5}

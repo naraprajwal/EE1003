@@ -1,0 +1,6 @@
+\frametitle{Plot}
+    \begin{figure}[htbp] % Positioning options: here, top, bottom, page
+    \centering
+    \includegraphics[width=\textwidth]{figs/plot.png} % Replace "filename" with your image file
+    \caption{Number of bacteria vs time}
+\end{figure}
