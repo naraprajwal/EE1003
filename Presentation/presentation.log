@@ -1,9 +1,9 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.8.6)  9 JAN 2025 02:11
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.8.6)  9 JAN 2025 09:36
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
-**presentation.tex
-(./presentation.tex
+**Presentation.tex
+(./Presentation.tex
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-02-20>
 (/usr/local/texlive/2024/texmf-dist/tex/latex/beamer/beamer.cls
@@ -920,7 +920,7 @@ File: l3backend-pdftex.def 2024-02-20 L3 backend support: PDF output (pdfTeX)
 \l__color_backend_stack_int=\count365
 \l__pdf_internal_box=\box127
 )
-(./presentation.aux
+(./Presentation.aux
 
 LaTeX Warning: Label `10' multiply defined.
 
@@ -928,7 +928,7 @@ LaTeX Warning: Label `10' multiply defined.
 LaTeX Warning: Label `10' multiply defined.
 
 )
-\openout1 = `presentation.aux'.
+\openout1 = `Presentation.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 70.
 LaTeX Font Info:    ... okay on input line 70.
@@ -1007,9 +1007,9 @@ e
 ))
 Package hyperref Info: Link coloring OFF on input line 70.
 
-(./presentation.out) (./presentation.out)
+(./Presentation.out) (./Presentation.out)
 \@outlinefile=\write5
-\openout5 = `presentation.out'.
+\openout5 = `Presentation.out'.
 
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
 (Font)                  OT1/cmr/m/n --> OT1/cmss/m/n on input line 70.
@@ -1092,9 +1092,9 @@ Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: listings package is loaded.
 Package caption Info: End \AtBeginDocument code.
 \c@lstlisting=\count372
- (./presentation.nav) [1
+ (./Presentation.nav) [1
 
-{/usr/local/texlive/2024/texmf-var/fonts/map/pdftex/updmap/pdftex.map}] (./pres
+{/usr/local/texlive/2024/texmf-var/fonts/map/pdftex/updmap/pdftex.map}] (./Pres
 entation.toc) [2
 
 ]
@@ -1119,18 +1119,9 @@ thkerncmss.
 ) [3
 
 ]
-\openout4 = `presentation.vrb'.
+\openout4 = `Presentation.vrb'.
 
- (./presentation.vrb
-
-! LaTeX Error: File `table.tex' not found.
-
-Type X to quit or <RETURN> to proceed,
-or enter new name. (Default extension: tex)
-
-Enter file name: 
-(/usr/local/texlive/2024/texmf-dist/tex/latex/tools/.tex File ignored))
-[4
+ (./Presentation.vrb (./tables/table.tex)) [4
 
 ]
 Overfull \vbox (20.92987pt too high) detected at line 117
@@ -1155,36 +1146,36 @@ l.151 \end{frame}
                   [7
 
 ]
-\openout4 = `presentation.vrb'.
+\openout4 = `Presentation.vrb'.
 
- (./presentation.vrb) [8
-
-]
-\openout4 = `presentation.vrb'.
-
- (./presentation.vrb) [9
+ (./Presentation.vrb) [8
 
 ]
-\openout4 = `presentation.vrb'.
+\openout4 = `Presentation.vrb'.
 
-
-(./presentation.vrb) [10
-
-]
-\openout4 = `presentation.vrb'.
-
- (./presentation.vrb) [11
+ (./Presentation.vrb) [9
 
 ]
-\openout4 = `presentation.vrb'.
+\openout4 = `Presentation.vrb'.
 
- (./presentation.vrb)
+
+(./Presentation.vrb) [10
+
+]
+\openout4 = `Presentation.vrb'.
+
+ (./Presentation.vrb) [11
+
+]
+\openout4 = `Presentation.vrb'.
+
+ (./Presentation.vrb)
 [12
 
 ]
-\openout4 = `presentation.vrb'.
+\openout4 = `Presentation.vrb'.
 
- (./presentation.vrb
+ (./Presentation.vrb
 LaTeX Font Info:    Trying to load font information for OML+cmss on input line 
 3.
 LaTeX Font Info:    No file OMLcmss.fd. on input line 3.
@@ -1211,42 +1202,42 @@ LaTeX Font Warning: Font shape `OMS/cmss/m/n' undefined
 ) [13
 
 {/usr/local/texlive/2024/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc}]
-\openout4 = `presentation.vrb'.
+\openout4 = `Presentation.vrb'.
 
- (./presentation.vrb)
+ (./Presentation.vrb)
 Overfull \vbox (0.11983pt too high) detected at line 280
  []
 
 [14
 
 ]
-\openout4 = `presentation.vrb'.
+\openout4 = `Presentation.vrb'.
 
- (./presentation.vrb) [15
+ (./Presentation.vrb) [15
 
 ]
-\openout4 = `presentation.vrb'.
+\openout4 = `Presentation.vrb'.
 
- (./presentation.vrb)
+ (./Presentation.vrb)
 Overfull \vbox (0.11983pt too high) detected at line 323
  []
 
 [16
 
 ]
-\openout4 = `presentation.vrb'.
+\openout4 = `Presentation.vrb'.
 
- (./presentation.vrb) [17
-
-]
-\openout4 = `presentation.vrb'.
-
- (./presentation.vrb) [18
+ (./Presentation.vrb) [17
 
 ]
-\openout4 = `presentation.vrb'.
+\openout4 = `Presentation.vrb'.
 
- (./presentation.vrb
+ (./Presentation.vrb) [18
+
+]
+\openout4 = `Presentation.vrb'.
+
+ (./Presentation.vrb
 <figs/plot.png, id=203, 722.7pt x 433.62pt>
 File: figs/plot.png Graphic file (type png)
 <use figs/plot.png>
@@ -1260,15 +1251,15 @@ Overfull \vbox (2.76965pt too high) detected at line 365
 
  <./figs/plot.png>]
 \tf@nav=\write6
-\openout6 = `presentation.nav'.
+\openout6 = `Presentation.nav'.
 
 \tf@toc=\write7
-\openout7 = `presentation.toc'.
+\openout7 = `Presentation.toc'.
 
 \tf@snm=\write8
-\openout8 = `presentation.snm'.
+\openout8 = `Presentation.snm'.
 
- (./presentation.aux)
+ (./Presentation.aux)
  ***********
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-02-20>
@@ -1280,12 +1271,12 @@ LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
 LaTeX Warning: There were multiply-defined labels.
 
-Package rerunfilecheck Info: File `presentation.out' has not changed.
+Package rerunfilecheck Info: File `Presentation.out' has not changed.
 (rerunfilecheck)             Checksum: 4BB7BB0FB3271FC04B0E5B527AFAA2BC;1577.
  ) 
 Here is how much of TeX's memory you used:
- 26493 strings out of 474116
- 501043 string characters out of 5743683
+ 26494 strings out of 474116
+ 501038 string characters out of 5743683
  2137187 words of memory out of 5000000
  48237 multiletter control sequences out of 15000+600000
  566351 words of font info for 65 fonts, out of 8000000 for 9000
@@ -1302,7 +1293,7 @@ sr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmssi8.pfb></us
 r/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr
 /local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/l
 ocal/texlive/2024/texmf-dist/fonts/type1/public/cm-super/sfss1095.pfb>
-Output written on presentation.pdf (19 pages, 161296 bytes).
+Output written on Presentation.pdf (19 pages, 161816 bytes).
 PDF statistics:
  276 PDF objects out of 1000 (max. 8388607)
  220 compressed objects within 3 object streams
