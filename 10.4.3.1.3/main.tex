@@ -62,7 +62,7 @@ b^2 - 4ac \geq 0 \\
 = 48 - 4(4)(3)\\
 = 0 
 \end{align}
-This means roots of equation exist and are coincident.\\
+This means roots of equation exist and are collinear.\\
 And its root is given by 
 \begin{align}
 4x^2 + 4\sqrt{3}x + 3 = 0 \\
@@ -75,27 +75,33 @@ x = -\frac{\sqrt{3}}{2}=-0.866025
 
 \textbf{Eigen value method}
 \begin{enumerate}
-\item Quadratic Equation
+\item Characteristics polynomial is given by
 \begin{align}
- p(x)=ax^2+bx+c   
+ p(x)=a_nx^n+a_{n-1}x^{n-1}+\cdots +a_1x+a_0   
 \end{align}
-where $a \neq 0$
-\item Divide quadratic equation by $a$
+where $a_n \neq 0$
+\item Divide Characteristics equation by $a_n$
 \begin{align}
-    p(x)=ax^2+bx+c   \\
-    p(x)=x^2+\frac{b}{a}x+\frac{c}{a}
+    p(x)= a_nx^n+a_{n-1}x^{n-1}+\cdots +a_1x+a_0     \\
+    p(x)=x^n+\frac{a_{n-1}}{a_n}x^{n-1}+\cdots +\frac{a_1}{a_n}x+\frac{a_0}{a_n}
 \end{align}
-\item Companion Matrix:\\
+\item Companion Matrix of characteristic polynomial is given by:\\
 Let
 \begin{align}
-    p=-\frac{b}{a} \\
-    q=-\frac{c}{a} \\
-    \begin{pmatrix}
-        0 & q \\
-        1 & p  \label{16}
-    \end{pmatrix}
+    \begin{bmatrix}
+0 & 1 & 0 & \cdots & 0 \\
+0 & 0 & 1 & \cdots & 0 \\
+\vdots & \vdots & \vdots & \ddots & \vdots \\
+0 & 0 & 0 & \cdots & 1 \\
+-\frac{a_0}{a_n} & -\frac{a_1}{a_n} & -\frac{a_2}{a_n} & \cdots & -\frac{a_{n-1}}{a_n}
+\end{bmatrix}
 \end{align}
-\item Finding the eigen values of the matrix \eqref{16} we will get the roots of the given quadratic equation
+\item Finding the eigen values of the companion matrix \eqref{16} we will get the roots of the given quadratic equation
+\item Advantages of using Eigen value approach \\
+\begin{enumerate}
+    \item Works for polynomials of any degree.\\
+    \item Handles complex roots seamlessly.\\
+\end{enumerate}
 \end{enumerate}
 
 
